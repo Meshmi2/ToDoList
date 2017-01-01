@@ -158,6 +158,8 @@
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.label1);
+            this.MaximumSize = new System.Drawing.Size(334, 455);
+            this.MinimumSize = new System.Drawing.Size(334, 455);
             this.Name = "ToDoList";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "ToDoList";
