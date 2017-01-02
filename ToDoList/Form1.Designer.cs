@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ToDoList));
             this.label1 = new MaterialSkin.Controls.MaterialLabel();
             this.textBox = new MaterialSkin.Controls.MaterialSingleLineTextField();
             this.addButton = new MaterialSkin.Controls.MaterialRaisedButton();
@@ -88,7 +89,7 @@
             this.checkedListBox.Location = new System.Drawing.Point(16, 181);
             this.checkedListBox.Margin = new System.Windows.Forms.Padding(2);
             this.checkedListBox.Name = "checkedListBox";
-            this.checkedListBox.Size = new System.Drawing.Size(273, 184);
+            this.checkedListBox.Size = new System.Drawing.Size(296, 184);
             this.checkedListBox.TabIndex = 4;
             // 
             // clearAllButton
@@ -158,6 +159,7 @@
             this.Controls.Add(this.addButton);
             this.Controls.Add(this.textBox);
             this.Controls.Add(this.label1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(334, 455);
             this.MinimumSize = new System.Drawing.Size(334, 455);
             this.Name = "ToDoList";
